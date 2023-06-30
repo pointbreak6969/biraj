@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.gallery{
+    background-color: red;
+    padding: 2rem;
+    overflow: hidden;
+}
+.gallery-item1{
+    float: left;
+    width: 50%;
+    padding: 1rem;
+}
+.gallery-item2{
+    float: left;
+    width: 50%;
+    padding: 1rem;
+}
+
+.contain1{
+    background-color: green;
+    height: 150px;
+    
+}
+.contain2{
+    height: 150px;
+    background-color: yellow;
+
+}

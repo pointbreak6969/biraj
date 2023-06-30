@@ -1,0 +1,29 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* .parent p{
+    color: red;
+} */
+
+.parent>p {
+    color: red;
+}
+
+.parent+h1 {
+    color: yellow;
+}
+
+.parent~p {
+    color: #0a0b0a;
+}
+h1:before{
+    content: "world";
+}
+h1::after{
+    content: "world";
+}
+button:hover{
+    background-color: red;
+}

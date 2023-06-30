@@ -1,0 +1,36 @@
+.bg-img{
+    background-image: url("../img/photo.jpg");
+    height: 400px;
+    /* background-size:200px 200px; */
+    /* background-size:contain; */
+    background-size:cover;
+    border: solid;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+
+}
+.child{
+    height: 400px;
+    background: url(../img/B.png) no-repeat fixed top;
+    /* background-size: 100px 100px; */
+    /* border: solid; */
+}
+/* .linear{
+    background-image: linear-gradient(to right,red 30%, blue, white, black);
+    height: 400px;
+}
+.radial{
+    background-image: repeating-radial-gradient(red, blue, white, black);
+    height: 1000px; */
+
+/* } */
+.conic{
+    /* background-image: repeating-conic-gradient(red, blue, white, black) ; */
+    background-image: repeating-conic-gradient(red 20%, yellow 25%);
+    box-shadow: 2px 3px 40px 15px #000;
+    /* box-shadow:left-right, top to bottom, opacity, size of shadow, color ; */
+    border-radius: 50%;
+    height: 800px;
+    width: 800px;
+}

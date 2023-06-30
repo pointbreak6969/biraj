@@ -1,0 +1,56 @@
+/* border:1px solid red */
+/*  border-width: 1px;
+border-style: solid;
+border-color: red;
+ */
+
+.parent h1{
+    border: 1px solid red;
+    font-size: 3rem;
+    text-align: center;
+    box-shadow: 1px 2px 30px 2px green;
+    text-shadow: 1px 2px 3px yellow;
+    font-family: cursive;
+    text-transform: uppercase;
+    /* text-decoration: line-through; */
+    text-decoration: underline;
+    font-weight: bolder;
+
+
+}
+.child ul{
+    list-style-type: none;
+
+}
+.child p{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.first a{
+    text-decoration: none;
+}
+
+.second{
+    background-color: rgb(143, 75, 75);
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+}
+.third p{
+    color: rgb(255, 0, 0);
+    font-size: 3rem;
+}
+.third h2{
+    /* color: rgba(255, 0, 0, 0.7); */
+    /* color: hsl(270, 20%, 30%); */
+    /* color: hsla(270, 40%, 30%, 0.4); */
+    color: #ec4d37;
+
+}
+/*  hsl 
+ h-360
+ s-%
+ l-%*/
+ /* hex  */
+
