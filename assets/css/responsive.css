@@ -1,0 +1,35 @@
+@media screen and (max-width:1200px) {
+    .service-item {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .service-item {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .service-item {
+        width: 33.33%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .service-item {
+        width: 50%;
+    }
+
+    .g-item {
+        width: 100%;
+    }
+
+    
+}
+
+@media screen and (max-width:480px) {
+    .service-item {
+        width: 100%;
+    }
+}

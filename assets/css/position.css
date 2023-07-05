@@ -1,0 +1,25 @@
+/* .container{
+    /* position: static;  by default*/ 
+    /* position: sticky;  */
+
+/* absolute ley sabai properties top left right bottom paunxa 
+child div lai sadhai position absolute dina parxa*/
+/* relative ley chai left ra right property lai matra access garna paunxa 
+position relative chai parent child lai dinxa*/
+
+.pbox{
+width: 700px;
+border: solid red;
+height: 300px;
+position: relative;
+
+}
+
+.pchild{
+    width: 100px;
+    height: 100px;
+    border: solid green;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
